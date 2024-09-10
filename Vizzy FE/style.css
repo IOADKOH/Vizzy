@@ -1,0 +1,40 @@
+body{
+    font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(28, 184, 132);
+  justify-content: center;
+}
+.container{
+    justify-content: start;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    flex-direction: column;
+    height: 70vh;
+    width: 45vh;
+    display: flex;
+    text-align: center;
+}
+
+.box-spese-superiore{
+    
+}
+.box-spese-centrale{
+    
+}
+.box-spese-inferiore{
+    
+}
+.input-spesa{
+    border-radius: 8px;
+    padding: 8px;
+}
+.btn-inserisciSpesa{
+    border-radius: 8px;
+    padding: 6.6px;
+}
+.testo-spese{
+    font-size: 24px;
+}
