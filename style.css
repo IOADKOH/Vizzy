@@ -1,0 +1,61 @@
+body{
+    font-family: "Berkshire Swash", serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(28, 184, 132);
+  justify-content: center;
+}
+.container{
+    justify-content: start;
+    background-color: antiquewhite;
+    border-radius: 8px;
+    flex-direction: column;
+    height: 90vh;
+    width: 60vh;
+    display: flex;
+    text-align: center;
+}
+
+.box-spese-superiore{
+    height: 25vh;
+    
+}
+.box-spese-centrale{
+    height: 50vh;
+    display: flex;
+    justify-content: start;
+    
+}
+.box-spese-inferiore{
+    height: 25vh;
+    
+}
+.input-spesa{
+    border-radius: 8px;
+    padding: 8px;
+}
+.btn-inserisciSpesa{
+    border-radius: 8px;
+    padding: 6.6px;
+}
+.testo-spese{
+    font-size: 24px;
+}
+.input-ammontare{
+    border-radius: 8px;
+    padding: 8px;
+}
+.input-nome{
+    border-radius: 8px;
+    padding: 8px;
+}
+.input-categoria{
+    border-radius: 8px;
+    padding: 8px;
+}
+.input-data{
+    border-radius: 8px;
+    padding: 8px;
+}

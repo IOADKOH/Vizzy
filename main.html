@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap" rel="stylesheet">
+    <title> Expenses Tracker | Vizzy & Peccuty</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="box-spese-superiore">
+            <header class="titolo">
+                <h1>💰Vizzy & Peccuty💸</h1>
+            </header>
+        </div>
+        <div class="box-spese-centrale">
+            <ul class="lista-spese">Lista delle spese:
+
+            </ul>
+        </div>
+
+        <div class="box-spese-inferiore">
+            <div>
+                <label for="input-spesa">Data:</label>
+            </div>
+            <div>
+                <input type="date" class="input-data" placeholder="Inserisci nuova spesa">
+            </div>
+            <div>
+                <label for="categoria">Categoria:</label>
+            </div>
+            <div>
+                <select name="categoria" class="input-categoria">
+                    <option value="-1">Scegli una categoria</option>
+                </select>
+            </div>
+            <div class="div-ammontare">
+                <label for="ammontare">Ammontare:</label>
+                <input type="number" class="input-ammontare"></input>
+            </div>
+            <div class="div-nome">
+                <label for="nome">Nome:</label>
+                <input type="text" class="input-nome"></input>
+            </div>
+            <button class="btn-inserisciSpesa" title="Aggiungi spesa">💀</button>
+
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
