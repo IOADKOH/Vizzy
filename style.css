@@ -19,17 +19,19 @@ body{
 }
 
 .box-spese-superiore{
-    height: 25vh;
+    height: 10vh;
     
 }
 .box-spese-centrale{
     height: 50vh;
     display: flex;
     justify-content: start;
+    flex-direction: column;
     
 }
 .box-spese-inferiore{
-    height: 25vh;
+    height: 20vh;
+    margin-bottom: 8px;
     
 }
 .input-spesa{
@@ -39,6 +41,7 @@ body{
 .btn-inserisciSpesa{
     border-radius: 8px;
     padding: 6.6px;
+    margin-top: 10px;
 }
 .testo-spese{
     font-size: 24px;
@@ -58,4 +61,17 @@ body{
 .input-data{
     border-radius: 8px;
     padding: 8px;
+}
+.label-ammontare{
+    display: block;
+}
+.label-nome{
+    display: block;
+}
+.titolo-lista{
+    font-size: 25px;
+}
+li{
+    text-align: start;
+    font-size: 20px;
 }
