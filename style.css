@@ -13,7 +13,7 @@ body{
     border-radius: 8px;
     flex-direction: column;
     height: 90vh;
-    width: 60vh;
+    width: 70vh;
     display: flex;
     text-align: center;
 }
@@ -27,7 +27,7 @@ body{
     display: flex;
     justify-content: start;
     flex-direction: column;
-    
+
 }
 .box-spese-inferiore{
     height: 20vh;
@@ -74,4 +74,12 @@ body{
 li{
     text-align: start;
     font-size: 20px;
+}
+.lista-spese{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.btn-eliminaSpesa{
+    text-align: end;
+    padding: 4px;
 }
